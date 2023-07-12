@@ -1,0 +1,6 @@
+
+*.class
+Enumeradores/.classpath
+Enumeradores/.project
+*.prefs
+Enumeradores/src/module-info.java
