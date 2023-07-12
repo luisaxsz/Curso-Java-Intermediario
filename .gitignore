@@ -4,3 +4,6 @@ Enumeradores/.classpath
 Enumeradores/.project
 *.prefs
 Enumeradores/src/module-info.java
+.metadata/.lock
+.metadata/version.ini
+/.metadata/
