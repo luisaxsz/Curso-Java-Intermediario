@@ -7,3 +7,6 @@ Enumeradores/src/module-info.java
 .metadata/.lock
 .metadata/version.ini
 /.metadata/
+DesafioEnum/.classpath
+DesafioEnum/.project
+DesafioEnum/src/module-info.java
