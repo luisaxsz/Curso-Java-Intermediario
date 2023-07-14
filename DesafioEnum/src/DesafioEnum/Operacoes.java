@@ -1,4 +1,4 @@
-package DesafioEnum;
+ package DesafioEnum;
 
 public enum Operacoes {
 	ADICAO("+") {
@@ -30,4 +30,8 @@ public enum Operacoes {
 	}
 	
 	public abstract double executarOperacao(double valor , double valor2);
+	
+	public String toString() {
+		return this.simbolo;
+	}
 }
