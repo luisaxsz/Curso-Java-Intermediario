@@ -50,6 +50,7 @@ public class ClassesAninhadas {
 
 		anonima.imprimeTexto();
 
+		//Instanciar interface como classe anonima
 		Texto texto = new Texto() {
 
 			@Override
