@@ -12,7 +12,7 @@ public class Teste {
 	}
 
 	public static void main(String[] args) {
-		Contato[] contatos = new Contato[1000];
+		Contato[] contatos = new Contato[100000];
 		Contato contato;
 		for(int i = 0; i < contatos.length; i++) {
 			contato = new Contato("Contato" + i, "0000-000" + i, "Contato"+ i+ "@email.com");
@@ -24,6 +24,9 @@ public class Teste {
 		obterMemoriaUsada();
 		
 		contatos = null;
+		
+		Runtime.getRuntime().runFinalization();
+		Runtime.getRuntime().gc();
 		
 		System.out.println("Contatos removidos da memoria");
 		
