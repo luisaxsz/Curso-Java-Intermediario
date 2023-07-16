@@ -9,7 +9,8 @@ public class Teste {
 		System.out.println(escopo.getValor());
 		System.out.println(escopo.calculaValor(20));
 		System.out.println(escopo.getValor());
-		
+		System.out.println(escopo.teste());
+		System.out.print(escopo.segundoTeste());
 
 	}
 
