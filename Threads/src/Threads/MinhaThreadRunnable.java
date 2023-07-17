@@ -1,10 +1,10 @@
 package Threads;
 
-public class MinhaThread2 implements Runnable {
+public class MinhaThreadRunnable implements Runnable {
 	private String nome;
 	private int tempo;
 
-	public MinhaThread2(String nome, int tempo) {
+	public MinhaThreadRunnable(String nome, int tempo) {
 		super();
 		this.nome = nome;
 		this.tempo = tempo;
