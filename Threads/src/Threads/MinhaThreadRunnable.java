@@ -11,7 +11,7 @@ public class MinhaThreadRunnable implements Runnable {
 		Thread thread = new Thread(this);
 		thread.start();
 	}
-	
+	@Override
 	public void run() {
 		for(int i = 0 ; i < 6; i++) {
 			System.out.println("Contador " + this.nome + " " +  i);
