@@ -8,8 +8,8 @@ public class MinhaThreadRunnable implements Runnable {
 		super();
 		this.nome = nome;
 		this.tempo = tempo;
-		Thread thread = new Thread(this);
-		thread.start();
+		//Thread thread = new Thread(this);
+		//thread.start();
 	}
 	@Override
 	public void run() {
