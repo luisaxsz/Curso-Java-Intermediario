@@ -46,3 +46,6 @@ Threads/src/module-info.java
 ModuloStrings/.classpath
 ModuloStrings/src/module-info.java
 ModuloStrings/.project
+ExercicioString/.classpath
+ExercicioString/.project
+ExercicioString/src/module-info.java

@@ -15,7 +15,7 @@ public class Aula83 {
 		System.out.println(alfabeto);
 		
 		//String ao contrario
-		System.out.println(sb.reverse());
+		System.out.println(sb.reverse().toString());
 		
 		//não e thread safe 
 		StringBuilder sb_ = new StringBuilder();
