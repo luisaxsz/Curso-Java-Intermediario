@@ -21,9 +21,15 @@ public class ClasseDecimalFormat {
 		dfs.setDecimalSeparator('.');
 		dfs.setGroupingSeparator(',');//milhares
 		
+		//# -> não exibe zero no final
 		String padrao2 = "###,###.##";
 		df = new DecimalFormat(padrao2,dfs);
 		System.out.println(df.format(37637232.32323));
+		
+		//Com zero -> vai aparecer zero no final
+		String padrao3  ="###,###,###.00";
+		df = new DecimalFormat(padrao3);
+		System.out.println(df.format(400003.0));
 		
 		
 		
