@@ -55,3 +55,7 @@ ExercicioVerificadorLogin/src/module-info.java
 ClassesUtilitarias/.classpath
 ClassesUtilitarias/.project
 ClassesUtilitarias/src/module-info.java
+InstalandoJars/.classpath
+InstalandoJars/.project
+InstalandoJars/src/module-info.java
+InstalandoJars/lib/commons-lang3-3.12.0.jar
